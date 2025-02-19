@@ -1,6 +1,6 @@
 # Changelog
 
-[v1.2.0] - 17/02/25
+[v1.2.1] - 17/02/25
 - Added content script to make TOT's editors read-only and prevent any direct modification
 
 [v1.1.1] - 07/12/24
