@@ -1,0 +1,4 @@
+.CodeMirror, .cm-editor, .cm-content, .cm-line {
+    user-select: none !important;
+    -webkit-user-select: none !important;
+}
