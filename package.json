@@ -1,6 +1,6 @@
 {
   "name": "joplin-plugin-table-of-to-dos",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "scripts": {
     "dist": "webpack --env joplin-plugin-config=buildMain && webpack --env joplin-plugin-config=buildExtraScripts && webpack --env joplin-plugin-config=createArchive",
     "prepare": "npm run dist",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Scrayil/Joplin-Plugins/tree/main/table_of_todos"
+    "url": "https://github.com/Scrayil/joplin-plugin-table-of-to-dos"
   },
   "homepage": "https://github.com/Scrayil",
   "license": "GPL-2.0",
