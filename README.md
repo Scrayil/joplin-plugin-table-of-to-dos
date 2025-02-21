@@ -7,10 +7,12 @@ This option can be tweaked in the settings.
 
 ## Demo
 ### Basic Usage
-https://github.com/user-attachments/assets/072db679-ff08-410e-acbc-fa7af08ebf66
+https://github.com/user-attachments/assets/c0cb5e63-5e6e-43e4-abc0-98626d3ca0c7
 
 ### Parent-Child logic
-https://github.com/user-attachments/assets/463ffd6b-2743-4b1d-a0a7-9a5f73fa316a
+https://github.com/user-attachments/assets/8480b558-fcb0-44e0-abcd-66c91f1eebe3
+
+
 
 ## Recent changes
 - [Changelog](/CHANGELOG.md)
