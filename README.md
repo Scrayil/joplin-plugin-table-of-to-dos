@@ -1,7 +1,4 @@
 # TOT (Table Of To-Dos)
-This plugin allows to generate the table of contents related to a specific note, where each item has a checkbox.  
-Especially useful for students, as it helps to keep track of topics and distinguish those learned from those not yet learned.  
-
 **Note**: Only headings up to level 4 are included in the TOT generation (by default), higher levels are currently ignored.  
 This option can be tweaked in the settings.
 
