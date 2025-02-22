@@ -1,6 +1,6 @@
 # Changelog
 
-[v1.2.3] - 17/02/25
+[v1.2.3] - 22/02/25
 - Fixed bug for slug generations not handling duplicates correctly
 - Added compatibility for inline and display formulas in headers
 - Added new icons
