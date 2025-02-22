@@ -2,6 +2,8 @@ import joplin from 'api';
 import {ContentScriptType} from "../api/types";
 const uslug = require('@joplin/fork-uslug');
 
+// Global variable for slugs
+let slugs: any = {};
 
 // From https://stackoverflow.com/a/6234804/561309
 function escapeHtml(unsafe:string) {
@@ -30,8 +32,16 @@ function noteHeaders(noteBody:string) {
     return headers;
 }
 
+function removeFormulas(headerText:string) {
+    // Removing $$ characters for inline formulas
+    headerText = headerText.replace('$$', '');
+    // Removing inline formulas (es. $...$)
+    headerText = headerText.replace(/\$[^$]+\$/g, '');
+    return headerText;
+}
+
 function headerSlug(headerText:string) {
-    const slugs: any = {};
+    headerText = removeFormulas(headerText);
     const s = uslug(headerText);
     let num = slugs[s] ? slugs[s] : 1;
     const output = [s];
@@ -111,6 +121,8 @@ export function updateTotNoteCheckboxes(totNote):string {
 
 // This function is responsible for generating the TOT note corresponding to the given note's content
 export async function generateTotMarkdown(note) {
+    // Important: Resets the slugs before generating
+    slugs = {};
     let mdString = ""
     const headers = noteHeaders(note.body);
     if(headers.length == 0) return -1;

@@ -2,7 +2,7 @@
 	"manifest_version": 1,
 	"id": "com.scrayil.table_of_todos",
 	"app_min_version": "3.1",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"name": "Table Of To-Dos",
 	"description": "This plugin allows generating the table of contents related to a specific note, where each item has a checkbox. Especially useful for students, as it helps to keep track of topics and distinguish those learned from those not yet learned.",
 	"author": "Mattia Bennati (Scrayil)",
