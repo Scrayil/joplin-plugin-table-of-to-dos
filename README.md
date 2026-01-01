@@ -14,8 +14,8 @@ https://github.com/user-attachments/assets/8480b558-fcb0-44e0-abcd-66c91f1eebe3
 ## Recent changes
 - [Changelog](/CHANGELOG.md)
 
-### Other officially supported plugins
-[https://joplinapp.org/plugins/](https://joplinapp.org/plugins/)
+## My official plugins  
+[![Joplin Plugins](https://img.shields.io/badge/Joplin_Plugins-purple.svg)](https://joplinapp.org/plugins/?search=author%3D%22Mattia%20Bennati%20(Scrayil)%22%20max-results%3D20)
 
 ## License
 Copyright 2024 Mattia Bennati  
